@@ -2,6 +2,6 @@
 
 API - endpoints available:
 
-- [x] To retrieve all pokemons: /pokemon
-- [x] To retrieve single pokemon (via id number): /pokemon/:id
-- [x] To retrieve single pokemon (via id number) and associated name: /pokemon/:id/:name
+- [x] To retrieve all pokemons: /api/pokemon
+- [x] To retrieve single pokemon (via id number): /api/pokemon/:id
+- [x] To retrieve single pokemon (via id number) and associated name: /api/pokemon/:id/:name

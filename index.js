@@ -20,7 +20,7 @@ app.use(express.json());
 app.use('/api/pokemon', router);
 app.use('/', (req, res) => {
   res.send(
-    "<h2>API - endpoints available:<h2/><p>To retrieve all pokemons: /pokemon</p><p>To retrieve single pokemon (via id number): /pokemon/:id</p><p>To retrieve single pokemon (via id number) and associated name: /pokemon/:id/:name</p>"
+    "<h2>API - endpoints available:<h2/><p>To retrieve all pokemons: /api/pokemon</p><p>To retrieve single pokemon (via id number): /api/pokemon/:id</p><p>To retrieve single pokemon (via id number) and associated name: /api/pokemon/:id/:name</p>"
   );
 });
 
