@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(cors({origin: '*'}))
 
 app.use(express.json());
-app.use('/pokemon', router);
+app.use('/api/pokemon', router);
 app.use('/', (req, res) => {
   res.send(
     "<h2>API - endpoints available:<h2/><p>To retrieve all pokemons: /pokemon</p><p>To retrieve single pokemon (via id number): /pokemon/:id</p><p>To retrieve single pokemon (via id number) and associated name: /pokemon/:id/:name</p>"
